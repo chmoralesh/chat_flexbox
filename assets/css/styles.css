@@ -1,0 +1,150 @@
+/* Reset Página*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilos*/
+
+body {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+  }
+
+/**LAYOUT*/
+
+.general {
+    display: flex;    
+}
+.chats{
+    width: 22vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.content{
+    width: 78vw;
+    background-color: rgba(137, 43, 226, 0.425);
+    min-height: 100vh;
+    border-left: 1px solid gray;
+}
+
+
+/*---------------------------------------------------*/
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-grow: 1; 
+    border-bottom: 1px solid gray;
+}
+.information{
+    display: flex;
+    align-items: center; 
+    justify-content:center; 
+    width: 22vw;
+}
+.card img{
+    max-width: 4em;
+    border-radius: 50%;
+    margin-right: 2em;
+}
+.description{
+    color: gray;
+    width: 10em;
+
+}
+
+/* Solo modifico el primer elemento de columna Aside*/
+.contactUser{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .user {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+  }
+  
+  .contactPhoto {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  
+  }
+  .contactPhoto img{
+    height: 3em;
+    border-radius: 50%;
+  
+  }
+  
+  .icon{
+    font-size: 1.5em;
+  }
+  .icon i{
+    color: grey;
+    margin-left: 0.3em;
+  }
+  
+  .contactDescription p{
+    margin-top: 0;
+    color: grey;
+  }
+
+
+/* Estilos botón*/
+.information button{
+    width: 10em;
+    height: 2.7em;
+    font-size: 1.5em;
+    margin: 1em;
+    color: white;
+    background-color:#A491D2;
+    border: Lavender;
+  
+  }
+  .information:nth-child(2){
+    flex-grow: 10;
+  }
+
+
+/* Estilos contenido main */
+
+.content {
+    height: 100vh;
+    background-color: #E8EBE4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 51, 51);
+    
+  }
+  .content img{
+    max-width: 20vw;
+    }
+  
+  .content p:nth-child(2){  
+    font-size: 4em;
+    margin-top: 0.2em;
+    margin-bottom: 0;
+  }
+  .content p:nth-child(3){  
+    margin-top: 0.2em;
+    margin-bottom: 0;
+  }
+  .content p:nth-child(4){  
+    margin-top: 0.5em;
+    margin-bottom: 0;
+  }
+  
